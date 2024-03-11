@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="50dp"
+        android:text="INTRODUCE LA SIGUIENTE INFORMACIÓN"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/vl_dni"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:hint="Introduce DNI"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/vl_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:hint="Introduce nombre"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/vl_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:hint="Introduce apellidos"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/vl_puesto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:hint="Introduce el puesto de trabajo"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/vl_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:hint="Introduce el teléfono de contacto"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/vl_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:hint="Pon una breve descripción"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/vl_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+</LinearLayout>

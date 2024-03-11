@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginBottom="50dp"
+        android:text="INTRODUCE EL DNI DEL USUARIO QUE QUIERAS ELIMINAR"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/vl_borrar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:hint="Introduce el DNI"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/vl_bottonborrar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Borrar usuario"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/mensaje10"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+
+        android:text="" />
+</LinearLayout>

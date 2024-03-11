@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginBottom="50dp"
+        android:text="¿QUÉ INFORMACIÓN QUIERES MODIFICAR?"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_dni"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:hint=" DNI"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:hint="nombre"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:hint="apellidos"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_puesto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:hint=" puesto de trabajo"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:hint="teléfono de contacto"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint=" descripción"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/et_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MODIFICAR" />
+</LinearLayout>
